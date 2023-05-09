@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bill Please</string>
+    <string name="amt">Amount</string>
+    <string name="pax">Number of Pax</string>
+    <string name="dis">Discount(%)</string>
+    <string name="noSvs">NO SVS</string>
+    <string name="yesSvs">SVS</string>
+    <string name="yesGst">GST</string>
+    <string name="noGst">NO GST</string>
+    <string name="cash">Cash</string>
+    <string name="paynow">PayNow</string>
+    <string name="split">SPLIT</string>
+    <string name="reset">RESET</string>
+    <string name="total">Total Bill: $00.00</string>
+    <string name="each">Each Pays: $00.00</string>
+    <string name="discountApply">Discount applicable?</string>
+    <string name="paynowNum">PayNow Number</string>
+    <string name="paynowHint">Enter PayNow Number</string>
+
+    <string name="amtHint">Enter the amount</string>
+    <string name="paxHint">Enter the number of pax</string>
+    <string name="disHint">Enter the discount percentage</string>
+</resources>

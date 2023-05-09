@@ -77,12 +77,16 @@ EditText discAmt;
 
                 if(svs.isChecked()&& gst.isChecked()){
                     totalAmt+=amtInput * 1.1 * 1.08;
+
                 }else if(svs.isChecked()&& !gst.isChecked()){
                     totalAmt+=amtInput * 1.1 ;
+
                 }else if(!svs.isChecked()&& gst.isChecked()){
                     totalAmt+=amtInput * 1.08;
+
                 }else if(!svs.isChecked()&& !gst.isChecked()){
                     totalAmt+=amtInput ;
+
                 }
 
                 String discString=discAmt.getText().toString();
